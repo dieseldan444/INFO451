@@ -7,7 +7,7 @@ export const ToDoItems: TodoModel[] = [
           Description: 'HTML Homework',
           Category: 'Homework',
           DueDate: 'January 1, 2019',
-          Status: 'Complete',
+          Status: 'Completed',
         },
         {
           id: '2',
@@ -15,7 +15,7 @@ export const ToDoItems: TodoModel[] = [
           Description: 'HTML Quiz',
           Category: 'Quiz',
           DueDate: 'January 1, 2019',
-          Status: 'Complete',
+          Status: 'Completed',
         },
         {
           id: '3',
@@ -23,7 +23,7 @@ export const ToDoItems: TodoModel[] = [
           Description: 'JS Homework',
           Category: 'Homework',
           DueDate: 'January 10, 2019',
-          Status: 'Complete',
+          Status: 'Completed',
         },
         {
           id: '4',
@@ -31,7 +31,7 @@ export const ToDoItems: TodoModel[] = [
           Description: 'JS Quiz',
           Category: 'Quiz',
           DueDate: 'Jan 10, 2019',
-          Status: 'Complete',
+          Status: 'Completed',
         },
         {
           id: '5',

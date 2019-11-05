@@ -14,7 +14,7 @@ export class InMemoryTodoDataService implements InMemoryDbService {
         Description: 'HTML Homework',
         Category: 'Homework',
         DueDate: 'January 1, 2019',
-        Status: 'Complete',
+        Status: 'Completed',
         imgSrc: 'assets/homework.jpg',
       },
       {
@@ -23,7 +23,7 @@ export class InMemoryTodoDataService implements InMemoryDbService {
         Description: 'HTML Quiz',
         Category: 'Quiz',
         DueDate: 'January 1, 2019',
-        Status: 'Complete',
+        Status: 'Completed',
         imgSrc: 'assets/quiz.jpg',
       },
       {
@@ -32,7 +32,7 @@ export class InMemoryTodoDataService implements InMemoryDbService {
         Description: 'JS Homework',
         Category: 'Homework',
         DueDate: 'January 10, 2019',
-        Status: 'Complete',
+        Status: 'Completed',
         imgSrc: 'assets/homework.jpg',
       },
       {
@@ -41,7 +41,7 @@ export class InMemoryTodoDataService implements InMemoryDbService {
         Description: 'JS Quiz',
         Category: 'Quiz',
         DueDate: 'Jan 10, 2019',
-        Status: 'Complete',
+        Status: 'Completed',
         imgSrc: 'assets/quiz.jpg',
       },
       {

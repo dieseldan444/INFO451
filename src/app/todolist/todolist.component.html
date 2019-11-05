@@ -10,6 +10,7 @@
         <th scope="col">Status</th>
         <th scope="col"></th>
         <th scope="col"></th>
+        <th scope="col"></th>
       </tr>
     </thead>
     <tbody>
@@ -22,12 +23,16 @@
         <td>{{todo.Status}}</td>
         <td><button type="button" class="btn btn-primary"
           [routerLink]="['/detail', todo.id]">View</button></td>
-        <td ><button type="button" class="btn btn-danger"
+        <td><button type="button" class="btn btn-primary"
+            [routerLink]="['/todoedit', todo.id]">Edit</button></td>
+        <td><button type="button" class="btn btn-danger"
             (click)="deleteTodo(todo)">Delete</button>
           </td>
       </tr>
     </tbody>
   </table>
+  <td><button type="button" class="btn btn-primary"
+    [routerLink]="['/todonew']">New</button></td>
 </div>
 
 <!--<app-detail [todo]="selectedTodo"></app-detail>-->
