@@ -38,4 +38,14 @@ deleteTodo (id: number): Observable<TodoModel> {
   const url = `${this.todoUrl}/${id}`;
   return this.http.delete<TodoModel>(url, httpOptions);
   }
+
+editTodo (todo: TodoModel): Observable<any> {
+    return this.http.put(this.todoUrl, todo, httpOptions);
+  }
+
+  addTodo (todo: TodoModel): Observable<any> {
+    console.log('new todo -');
+    console.log(todo);
+    return this.http.post<TodoModel>(this.todoUrl, todo, httpOptions);
+  }
 }

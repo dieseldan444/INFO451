@@ -17,6 +17,8 @@
         <button [disabled]="disableButton" type="button" class="btn btn-primary"
           [routerLink]="['/detail', nextId]">Next</button> &nbsp;
         <button type="button" class="btn btn-secondary"
-          [routerLink]="['/todo']">Back To List</button>
+          [routerLink]="['/todo']">Back To List</button> &nbsp;
+        <button type="button" class="btn btn-secondary"
+          [routerLink]="['/todoedit', todo.id]">Edit</button> &nbsp;
     </div>
   </div>

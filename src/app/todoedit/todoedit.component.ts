@@ -24,11 +24,13 @@ export class TodoeditComponent implements OnInit {
     this.todoService.getTodo(id)
         .subscribe(data => this.todo = data); // this.todoService.getTodo from last classwork
   }
-  cancel(): void {
-    this.router.navigateByUrl('todo');
-  }
 
   onSubmit(){
-    console.log(this.todo);
+    this.todoService.editTodo(this.todo)
+        .subscribe(() => this.cancel());
+  }
+
+  cancel(): void {
+    this.router.navigateByUrl('todo');
   }
 }
