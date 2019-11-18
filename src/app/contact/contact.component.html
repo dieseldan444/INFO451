@@ -3,14 +3,14 @@
       <div class="form-group">
         <label for="inputName">Name</label>
         <input [(ngModel)]="contact.Name" type="text" class="form-control" id="name" name="inputName" #inputName="ngModel"
-        required minlength="3" maxlength="30"/>
+        required minlength="5" maxlength="30"/>
       <div *ngIf="inputName.invalid && (inputName.dirty || inputName.touched)"
           class="alert alert-danger">
         <div *ngIf="inputName.errors['required']">
           Name is required.
         </div>
         <div *ngIf="inputName.errors['minlength']">
-          Name must be at least of 3 characters.
+          Name must be at least of 5 characters.
         </div>
       </div>      
       </div>
