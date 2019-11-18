@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
 import { TodoModel } from './../shared/todo-model';
 import { TodoService } from './../services/todo.service';
 
@@ -11,7 +10,7 @@ import { TodoService } from './../services/todo.service';
 })
 export class TodonewComponent implements OnInit {
 
-  todo : TodoModel;
+  todo: TodoModel;
   drpStatus = ['Active', 'Pending', 'Skipped', 'Completed', 'In Progress'];
 
   constructor(private todoService: TodoService,
