@@ -17,5 +17,5 @@ export const appRoutes: Routes = [
   { path: 'terms',  component: TermsComponent},
   { path: 'todoedit/:id',  component: TodoeditComponent},
   { path: 'todonew',  component: TodonewComponent},
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: '', redirectTo: '/todo', pathMatch: 'full' }
 ];
