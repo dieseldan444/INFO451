@@ -27,7 +27,6 @@ export class ContactComponent implements OnInit {
   }
 
   onSubmit(): void {
-
     this.todoService.addTodo(this.todo)
         .subscribe(() => this.cancel());
   }
